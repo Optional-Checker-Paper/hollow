@@ -4,6 +4,7 @@ buildscript {
 
 plugins {
   id 'com.netflix.nebula.netflixoss' version '11.1.1'
+  id 'org.checkerframework' version '0.6.35'
 }
 
 subprojects {
@@ -13,6 +14,13 @@ subprojects {
     toolchain {
       languageVersion = JavaLanguageVersion.of(8)
     }
+  }
+
+  apply plugin: 'org.checkerframework'
+  checkerFramework {
+    checkers = [
+      'org.checkerframework.checker.optional.OptionalChecker'
+    ]
   }
 
   tasks.withType(Javadoc) {
