@@ -77,6 +77,7 @@ public abstract class AbstractRefreshMetricsListener extends AbstractRefreshList
     }
 
     @Override
+    @SuppressWarnings("method.invocation") // application-invariant : extremely poor use of Optional<Boolean>
     public void versionDetected(HollowConsumer.VersionInfo requestedVersionInfo) {
         announcementTimestamps.clear(); // clear map to avoid accumulation over time
         if (requestedVersionInfo.isPinned() == null || requestedVersionInfo.getAnnouncementMetadata() == null) {
