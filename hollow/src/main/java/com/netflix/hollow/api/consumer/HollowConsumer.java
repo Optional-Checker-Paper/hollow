@@ -635,17 +635,17 @@ public class HollowConsumer {
     public static class VersionInfo {
         long version;
 
-        @SuppressWarnings("optional.field") // optional-field : use of optional as a field
+        @SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
         Optional<Boolean> isPinned;
 
-        @SuppressWarnings("optional.field") // optional-field : use of optional as a field
+        @SuppressWarnings("optional:optional.field") // optional-field : use of optional as a field
         Optional<Map<String, String>> announcementMetadata;
 
         public VersionInfo(long version) {
             this(version, Optional.empty(), Optional.empty());
         }
 
-        @SuppressWarnings("optional.parameter") // optional-parameter : use of optional as a parameter
+        @SuppressWarnings("optional:optional.parameter") // optional-parameter : use of optional as a parameter
         public VersionInfo(long version, Optional<Map<String, String>> announcementMetadata, Optional<Boolean> isPinned) {
             this.version = version;
             this.announcementMetadata = announcementMetadata;
