@@ -22,8 +22,14 @@ import java.util.OptionalLong;
 public class CycleMetrics {
 
     private long consecutiveFailures;
+
+    @SuppressWarnings("optional.field") // optional-field : use of optional as a field
     private OptionalLong cycleDurationMillis;               // Cycle start to end duration, only applicable to completed cycles
+
+    @SuppressWarnings("optional.field") // optional-field : use of optional as a field
     private Optional<Boolean> isCycleSuccess;               // true if cycle was successful, false if cycle failed, N/A if cycle was skipped
+
+    @SuppressWarnings("optional.field") // optional-field : use of optional as a field
     private OptionalLong lastCycleSuccessTimeNano;          // monotonic time of last successful cycle (no relation to wall clock), N/A until first successful cycle
 
     public long getConsecutiveFailures() {
@@ -32,6 +38,8 @@ public class CycleMetrics {
     public OptionalLong getCycleDurationMillis() {
         return cycleDurationMillis;
     }
+
+    @SuppressWarnings("optional.field") // optional-field : use of optional as a field
     public Optional<Boolean> getIsCycleSuccess() {
         return isCycleSuccess;
     }
@@ -49,6 +57,8 @@ public class CycleMetrics {
     public static final class Builder {
         private long consecutiveFailures;
         private OptionalLong cycleDurationMillis;
+
+        @SuppressWarnings("optional.field") // optional-field : use of optional as a field
         private Optional<Boolean> isCycleSuccess;
         private OptionalLong lastCycleSuccessTimeNano;
 
