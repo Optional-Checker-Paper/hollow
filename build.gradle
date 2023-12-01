@@ -4,10 +4,12 @@ buildscript {
 
 plugins {
   id 'com.netflix.nebula.netflixoss' version '11.1.1'
+  id "com.github.spotbugs" version "5.2.5"
 }
 
 subprojects {
   apply plugin: 'nebula.netflixoss'
+  apply plugin: 'com.github.spotbugs'
 
   java {
     toolchain {
@@ -21,6 +23,13 @@ subprojects {
         'implSpec:a:Implementation Requirements:',
         'implNote:a:Implementation Note:')
   }
+  spotbugs {
+       ignoreFailures = true
+       toolVersion = '4.8.2'
+       effort = 'default'
+       reportLevel = 'default'
+       reportsDir = file("$buildDir/spotbugs")
+   }
 
   group = 'com.netflix.hollow'
 
@@ -28,3 +37,4 @@ subprojects {
     mavenCentral()
   }
 }
+
