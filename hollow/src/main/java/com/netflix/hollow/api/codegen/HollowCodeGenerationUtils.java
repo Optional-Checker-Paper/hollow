@@ -358,8 +358,6 @@ public class HollowCodeGenerationUtils {
      * Convert field path into Param name
      *
      * Eg:
-     *  - Actor {@literal->} actor
-     *  - Actor.name {@literal->} actorName
      *
      * @param fieldPath the field path
      * @return the param name

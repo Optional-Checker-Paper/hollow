@@ -4,14 +4,16 @@ buildscript {
 
 plugins {
   id 'com.netflix.nebula.netflixoss' version '11.1.1'
+  id "net.ltgt.errorprone" version "3.1.0"
 }
 
 subprojects {
   apply plugin: 'nebula.netflixoss'
+  apply plugin: 'net.ltgt.errorprone'
 
   java {
     toolchain {
-      languageVersion = JavaLanguageVersion.of(8)
+      languageVersion = JavaLanguageVersion.of(11)
     }
   }
 
@@ -27,4 +29,17 @@ subprojects {
   repositories {
     mavenCentral()
   }
+  dependencies {
+    errorprone("com.google.errorprone:error_prone_core:2.23.0")
+  }
+  tasks.withType(JavaCompile).configureEach {
+    options.errorprone.disableWarningsInGeneratedCode = true
+    options.errorprone.disableAllChecks = true
+    options.errorprone.enable("NullOptional", "NullableOptional",
+      "OptionalMapToOptional", "OptionalNotPresent", "OptionalEquality",
+      "OptionalMapUnusedValue", "OptionalOfRedundantMethod", "UnnecessaryOptionalGet",
+    )
+  }
 }
+
+
