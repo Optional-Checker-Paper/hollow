@@ -1,0 +1,275 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java</file>
+  <line>637</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo isPinned" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Boolean&gt;&lt;/code&gt; used as type for field 'isPinned'</description>
+  <highlighted_element>Optional&lt;Boolean&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java</file>
+  <line>638</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo announcementMetadata" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Map&lt;String, String&gt;&gt;&lt;/code&gt; used as type for field 'announcementMetadata'</description>
+  <highlighted_element>Optional&lt;Map&lt;String, String&gt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>8</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java</file>
+  <line>644</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer</package>
+  <entry_point TYPE="method" FQNAME="com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo VersionInfo(long version, java.util.Optional&lt;java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; announcementMetadata, java.util.Optional&lt;java.lang.Boolean&gt; isPinned)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Map&lt;String, String&gt;&gt;&lt;/code&gt; used as type for parameter 'announcementMetadata'</description>
+  <highlighted_element>Optional&lt;Map&lt;String, String&gt;&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>41</offset>
+  <length>29</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java</file>
+  <line>644</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer</package>
+  <entry_point TYPE="method" FQNAME="com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo VersionInfo(long version, java.util.Optional&lt;java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; announcementMetadata, java.util.Optional&lt;java.lang.Boolean&gt; isPinned)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Boolean&gt;&lt;/code&gt; used as type for parameter 'isPinned'</description>
+  <highlighted_element>Optional&lt;Boolean&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>93</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java</file>
+  <line>48</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.metrics.AbstractRefreshMetricsListener lastRefreshTimeNanoOptional" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'lastRefreshTimeNanoOptional'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/ConsumerRefreshMetrics.java</file>
+  <line>31</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.metrics.ConsumerRefreshMetrics refreshSuccessAgeMillisOptional" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'refreshSuccessAgeMillisOptional'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/ConsumerRefreshMetrics.java</file>
+  <line>33</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.metrics.ConsumerRefreshMetrics cycleStartTimestamp" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'cycleStartTimestamp'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/ConsumerRefreshMetrics.java</file>
+  <line>34</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.metrics.ConsumerRefreshMetrics announcementTimestamp" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'announcementTimestamp'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/ConsumerRefreshMetrics.java</file>
+  <line>110</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.metrics.ConsumerRefreshMetrics.Builder refreshSuccessAgeMillisOptional" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'refreshSuccessAgeMillisOptional'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/ConsumerRefreshMetrics.java</file>
+  <line>112</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.metrics.ConsumerRefreshMetrics.Builder cycleStartTimestamp" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'cycleStartTimestamp'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/ConsumerRefreshMetrics.java</file>
+  <line>113</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.metrics.ConsumerRefreshMetrics.Builder announcementTimestamp" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'announcementTimestamp'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/AbstractProducerMetricsListener.java</file>
+  <line>38</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.AbstractProducerMetricsListener lastCycleSuccessTimeNanoOptional" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'lastCycleSuccessTimeNanoOptional'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/AbstractProducerMetricsListener.java</file>
+  <line>39</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.AbstractProducerMetricsListener lastAnnouncementSuccessTimeNanoOptional" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'lastAnnouncementSuccessTimeNanoOptional'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>4</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/AnnouncementMetrics.java</file>
+  <line>26</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.AnnouncementMetrics lastAnnouncementSuccessTimeNano" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'lastAnnouncementSuccessTimeNano'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/AnnouncementMetrics.java</file>
+  <line>53</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.AnnouncementMetrics.Builder lastAnnouncementSuccessTimeNano" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'lastAnnouncementSuccessTimeNano'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java</file>
+  <line>25</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.CycleMetrics cycleDurationMillis" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'cycleDurationMillis'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java</file>
+  <line>26</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.CycleMetrics isCycleSuccess" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Boolean&gt;&lt;/code&gt; used as type for field 'isCycleSuccess'</description>
+  <highlighted_element>Optional&lt;Boolean&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java</file>
+  <line>27</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.CycleMetrics lastCycleSuccessTimeNano" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'lastCycleSuccessTimeNano'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java</file>
+  <line>51</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.CycleMetrics.Builder cycleDurationMillis" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'cycleDurationMillis'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java</file>
+  <line>52</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.CycleMetrics.Builder isCycleSuccess" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Boolean&gt;&lt;/code&gt; used as type for field 'isCycleSuccess'</description>
+  <highlighted_element>Optional&lt;Boolean&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java</file>
+  <line>53</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.producer.metrics</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.producer.metrics.CycleMetrics.Builder lastCycleSuccessTimeNano" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;OptionalLong&lt;/code&gt; used as type for field 'lastCycleSuccessTimeNano'</description>
+  <highlighted_element>OptionalLong</highlighted_element>
+  <language>JAVA</language>
+  <offset>16</offset>
+  <length>12</length>
+</problem>
+</problems>

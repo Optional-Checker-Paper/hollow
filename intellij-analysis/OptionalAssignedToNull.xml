@@ -1,0 +1,28 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java</file>
+  <line>82</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="method" FQNAME="com.netflix.hollow.api.consumer.metrics.AbstractRefreshMetricsListener void versionDetected(com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo requestedVersionInfo)" />
+  <problem_class id="OptionalAssignedToNull" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Null value for Optional type</problem_class>
+  <description>Optional value is compared with null</description>
+  <highlighted_element>requestedVersionInfo.isPinned() == null</highlighted_element>
+  <language>JAVA</language>
+  <offset>12</offset>
+  <length>39</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java</file>
+  <line>82</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer.metrics</package>
+  <entry_point TYPE="method" FQNAME="com.netflix.hollow.api.consumer.metrics.AbstractRefreshMetricsListener void versionDetected(com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo requestedVersionInfo)" />
+  <problem_class id="OptionalAssignedToNull" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Null value for Optional type</problem_class>
+  <description>Optional value is compared with null</description>
+  <highlighted_element>requestedVersionInfo.getAnnouncementMetadata() == null</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>54</length>
+</problem>
+</problems>

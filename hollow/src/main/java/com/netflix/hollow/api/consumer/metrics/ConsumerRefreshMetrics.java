@@ -28,9 +28,12 @@ public class ConsumerRefreshMetrics {
     private BlobType overallRefreshType;            // snapshot, delta, or reverse delta
     private UpdatePlanDetails updatePlanDetails;    // details about the update plan such as no. and types of transitions and no. of successful transitions
     private long consecutiveFailures;
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private OptionalLong refreshSuccessAgeMillisOptional; // time elapsed since the previous successful refresh
     private long refreshEndTimeNano;                // monotonic system time when refresh ended
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private OptionalLong cycleStartTimestamp;       // timestamp in millis of when cycle started for the loaded data version
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private OptionalLong announcementTimestamp; // timestamp in milliseconds to mark announcement for the loaded data version
 
     /**
@@ -107,9 +110,12 @@ public class ConsumerRefreshMetrics {
         private BlobType overallRefreshType;
         private UpdatePlanDetails updatePlanDetails;
         private long consecutiveFailures;
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private OptionalLong refreshSuccessAgeMillisOptional;
         private long refreshEndTimeNano;
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private OptionalLong cycleStartTimestamp;
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private OptionalLong announcementTimestamp;
 
         public Builder() {

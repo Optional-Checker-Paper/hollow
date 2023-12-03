@@ -22,19 +22,25 @@ import java.util.OptionalLong;
 public class CycleMetrics {
 
     private long consecutiveFailures;
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private OptionalLong cycleDurationMillis;               // Cycle start to end duration, only applicable to completed cycles
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private Optional<Boolean> isCycleSuccess;               // true if cycle was successful, false if cycle failed, N/A if cycle was skipped
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private OptionalLong lastCycleSuccessTimeNano;          // monotonic time of last successful cycle (no relation to wall clock), N/A until first successful cycle
 
     public long getConsecutiveFailures() {
         return consecutiveFailures;
     }
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     public OptionalLong getCycleDurationMillis() {
         return cycleDurationMillis;
     }
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     public Optional<Boolean> getIsCycleSuccess() {
         return isCycleSuccess;
     }
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     public OptionalLong getLastCycleSuccessTimeNano() {
         return lastCycleSuccessTimeNano;
     }
@@ -48,8 +54,11 @@ public class CycleMetrics {
 
     public static final class Builder {
         private long consecutiveFailures;
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private OptionalLong cycleDurationMillis;
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private Optional<Boolean> isCycleSuccess;
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private OptionalLong lastCycleSuccessTimeNano;
 
         public Builder() {

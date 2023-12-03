@@ -1,0 +1,41 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java</file>
+  <line>638</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer</package>
+  <entry_point TYPE="field" FQNAME="com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo announcementMetadata" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;Map&lt;String, String&gt;&lt;/code&gt;</description>
+  <highlighted_element>Map&lt;String, String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>17</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java</file>
+  <line>644</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer</package>
+  <entry_point TYPE="method" FQNAME="com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo VersionInfo(long version, java.util.Optional&lt;java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; announcementMetadata, java.util.Optional&lt;java.lang.Boolean&gt; isPinned)" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;Map&lt;String, String&gt;&lt;/code&gt;</description>
+  <highlighted_element>Map&lt;String, String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>50</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java</file>
+  <line>655</line>
+  <module>hollow-root.hollow.main</module>
+  <package>com.netflix.hollow.api.consumer</package>
+  <entry_point TYPE="method" FQNAME="com.netflix.hollow.api.consumer.HollowConsumer.VersionInfo java.util.Optional&lt;java.util.Map&lt;java.lang.String,java.lang.String&gt;&gt; getAnnouncementMetadata()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;Map&lt;String, String&gt;&lt;/code&gt;</description>
+  <highlighted_element>Map&lt;String, String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>24</offset>
+  <length>19</length>
+</problem>
+</problems>

@@ -35,7 +35,9 @@ public abstract class AbstractProducerMetricsListener extends AbstractHollowProd
 
     // visible for testing
     private long consecutiveFailures;
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     OptionalLong lastCycleSuccessTimeNanoOptional;
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     OptionalLong lastAnnouncementSuccessTimeNanoOptional;
 
 

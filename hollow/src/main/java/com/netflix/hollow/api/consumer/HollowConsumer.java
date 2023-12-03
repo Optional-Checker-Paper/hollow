@@ -634,13 +634,22 @@ public class HollowConsumer {
      * */
     public static class VersionInfo {
         long version;
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         Optional<Boolean> isPinned;
+        @SuppressWarnings({
+                "OptionalUsedAsFieldOrParameterType", // intellij-suppression-optional-used-as-field
+                "OptionalContainsCollection", // intellij-suppression-optional-contains-collection
+        })
         Optional<Map<String, String>> announcementMetadata;
 
         public VersionInfo(long version) {
             this(version, Optional.empty(), Optional.empty());
         }
 
+        @SuppressWarnings({
+                "OptionalUsedAsFieldOrParameterType", // intellij-suppression-optional-used-as-parameter
+                "OptionalContainsCollection", // intellij-suppression-optional-contains-collection
+        })
         public VersionInfo(long version, Optional<Map<String, String>> announcementMetadata, Optional<Boolean> isPinned) {
             this.version = version;
             this.announcementMetadata = announcementMetadata;
@@ -652,6 +661,7 @@ public class HollowConsumer {
             return version;
         }
 
+        @SuppressWarnings("OptionalContainsCollection") // intellij-suppressioin-optional-contains-collection
         public Optional<Map<String, String>> getAnnouncementMetadata() {
             return announcementMetadata;
         }

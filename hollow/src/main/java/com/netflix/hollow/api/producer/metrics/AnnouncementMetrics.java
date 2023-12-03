@@ -23,6 +23,7 @@ public class AnnouncementMetrics {
     private long dataSizeBytes;                             // Heap footprint of announced blob in bytes
     private long announcementDurationMillis;                // Announcement duration in ms, only applicable to completed cycles (skipped cycles dont announce)
     private boolean isAnnouncementSuccess;                  // true if announcement was successful, false if announcement failed
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private OptionalLong lastAnnouncementSuccessTimeNano;   // monotonic time of last successful announcement (no relation to wall clock), N/A until first successful announcement
 
 
@@ -50,6 +51,7 @@ public class AnnouncementMetrics {
         private long dataSizeBytes;
         private long announcementDurationMillis;
         private boolean isAnnouncementSuccess;
+        @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
         private OptionalLong lastAnnouncementSuccessTimeNano;
 
         public Builder() {
