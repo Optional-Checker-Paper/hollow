@@ -45,6 +45,7 @@ public abstract class AbstractRefreshMetricsListener extends AbstractRefreshList
 
     private static final Logger log = Logger.getLogger(AbstractRefreshMetricsListener.class.getName());
 
+    @SuppressWarnings("optional:optional.field")  // optional-field
     private OptionalLong lastRefreshTimeNanoOptional;
     private long refreshStartTimeNano;
     private long consecutiveFailures;
@@ -76,6 +77,7 @@ public abstract class AbstractRefreshMetricsListener extends AbstractRefreshList
         cycleVersionStartTimes.clear(); // clear map to avoid accumulation over time
     }
 
+    @SuppressWarnings("optional:optional.null.comparison") // optional-null-comparison
     @Override
     public void versionDetected(HollowConsumer.VersionInfo requestedVersionInfo) {
         announcementTimestamps.clear(); // clear map to avoid accumulation over time
