@@ -24,9 +24,18 @@ subprojects {
     extraJavacArgs = [
       '-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno',
       '-AassumePure',
-      '-AwarnUnneededSuppressions'
-     ]
-     excludeTests = true
+      '-AwarnUnneededSuppressions',
+    ]
+    excludeTests = true
+    ext.checkerFrameworkVersion = '3.41.1-SNAPSHOT'
+    dependencies {
+      compileOnly "org.checkerframework:checker-qual:${checkerFrameworkVersion}"
+      testCompileOnly "org.checkerframework:checker-qual:${checkerFrameworkVersion}"
+      checkerFramework "org.checkerframework:checker:${checkerFrameworkVersion}"
+    }
+    configurations.all {
+      resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+    }
   }
 
   tasks.withType(Javadoc) {
@@ -35,10 +44,12 @@ subprojects {
         'implSpec:a:Implementation Requirements:',
         'implNote:a:Implementation Note:')
   }
+  tasks.withType(Javadoc).all { enabled = false }
 
   group = 'com.netflix.hollow'
 
   repositories {
     mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
   }
 }
