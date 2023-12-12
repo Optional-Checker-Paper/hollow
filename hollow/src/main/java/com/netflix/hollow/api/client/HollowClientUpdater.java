@@ -255,7 +255,7 @@ public class HollowClientUpdater {
     /**
      * Whether or not a snapshot plan should be created. Visible for testing.
      */
-    @SuppressWarnings("optional:optional.null.comparison") // optional-null-comparison
+    @SuppressWarnings("optional:optional.null.comparison") // style-optional-null-comparison
     boolean shouldCreateSnapshotPlan(HollowConsumer.VersionInfo incomingVersionInfo) {
         if (getCurrentVersionId() == HollowConstants.VERSION_NONE
         || (forceDoubleSnapshot && doubleSnapshotConfig.allowDoubleSnapshot())) {

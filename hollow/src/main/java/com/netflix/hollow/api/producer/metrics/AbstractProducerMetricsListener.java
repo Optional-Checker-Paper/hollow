@@ -35,9 +35,9 @@ public abstract class AbstractProducerMetricsListener extends AbstractHollowProd
 
     // visible for testing
     private long consecutiveFailures;
-    @SuppressWarnings("optional:optional.field")  // optional-field
+    @SuppressWarnings("optional:optional.field")  // style-optional-field
     OptionalLong lastCycleSuccessTimeNanoOptional;
-    @SuppressWarnings("optional:optional.field")  // optional-field
+    @SuppressWarnings("optional:optional.field")  // style-optional-field
     OptionalLong lastAnnouncementSuccessTimeNanoOptional;
 
 

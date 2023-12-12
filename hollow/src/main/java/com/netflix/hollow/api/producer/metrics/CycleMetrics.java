@@ -23,13 +23,13 @@ public class CycleMetrics {
 
     private long consecutiveFailures;
 
-    @SuppressWarnings("optional:optional.field")  // optional-field
+    @SuppressWarnings("optional:optional.field")  // style-optional-field
     private OptionalLong cycleDurationMillis;               // Cycle start to end duration, only applicable to completed cycles
 
-    @SuppressWarnings("optional:optional.field") // optional-field
+    @SuppressWarnings("optional:optional.field") // style-optional-field
     private Optional<Boolean> isCycleSuccess;               // true if cycle was successful, false if cycle failed, N/A if cycle was skipped
 
-    @SuppressWarnings("optional:optional.field") // optional-field
+    @SuppressWarnings("optional:optional.field") // style-optional-field
     private OptionalLong lastCycleSuccessTimeNano;          // monotonic time of last successful cycle (no relation to wall clock), N/A until first successful cycle
 
     public long getConsecutiveFailures() {
@@ -55,12 +55,12 @@ public class CycleMetrics {
 
     public static final class Builder {
         private long consecutiveFailures;
-        @SuppressWarnings("optional:optional.field")  // optional-field
+        @SuppressWarnings("optional:optional.field")  // style-optional-field
         private OptionalLong cycleDurationMillis;
 
-        @SuppressWarnings("optional:optional.field") // optional-field
+        @SuppressWarnings("optional:optional.field") // style-optional-field
         private Optional<Boolean> isCycleSuccess;
-        @SuppressWarnings("optional:optional.field")  // optional-field
+        @SuppressWarnings("optional:optional.field")  // style-optional-field
         private OptionalLong lastCycleSuccessTimeNano;
 
         public Builder() {

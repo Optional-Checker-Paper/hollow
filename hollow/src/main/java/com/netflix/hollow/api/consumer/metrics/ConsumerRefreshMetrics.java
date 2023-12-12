@@ -28,12 +28,12 @@ public class ConsumerRefreshMetrics {
     private BlobType overallRefreshType;            // snapshot, delta, or reverse delta
     private UpdatePlanDetails updatePlanDetails;    // details about the update plan such as no. and types of transitions and no. of successful transitions
     private long consecutiveFailures;
-    @SuppressWarnings("optional:optional.field")  // optional-field
+    @SuppressWarnings("optional:optional.field")  // style-optional-field
     private OptionalLong refreshSuccessAgeMillisOptional; // time elapsed since the previous successful refresh
     private long refreshEndTimeNano;                // monotonic system time when refresh ended
-    @SuppressWarnings("optional:optional.field")  // optional-field
+    @SuppressWarnings("optional:optional.field")  // style-optional-field
     private OptionalLong cycleStartTimestamp;       // timestamp in millis of when cycle started for the loaded data version
-    @SuppressWarnings("optional:optional.field")  // optional-field
+    @SuppressWarnings("optional:optional.field")  // style-optional-field
     private OptionalLong announcementTimestamp; // timestamp in milliseconds to mark announcement for the loaded data version
 
     /**
@@ -110,12 +110,12 @@ public class ConsumerRefreshMetrics {
         private BlobType overallRefreshType;
         private UpdatePlanDetails updatePlanDetails;
         private long consecutiveFailures;
-        @SuppressWarnings("optional:optional.field")  // optional-field
+        @SuppressWarnings("optional:optional.field")  // style-optional-field
         private OptionalLong refreshSuccessAgeMillisOptional;
         private long refreshEndTimeNano;
-        @SuppressWarnings("optional:optional.field")  // optional-field
+        @SuppressWarnings("optional:optional.field")  // style-optional-field
         private OptionalLong cycleStartTimestamp;
-        @SuppressWarnings("optional:optional.field")  // optional-field
+        @SuppressWarnings("optional:optional.field")  // style-optional-field
         private OptionalLong announcementTimestamp;
 
         public Builder() {
