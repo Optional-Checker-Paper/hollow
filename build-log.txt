@@ -15,169 +15,169 @@ No android or java plugins found in the project hollow-root, checker compiler op
 > Task :hollow:createCheckerFrameworkManifest
 
 > Task :hollow:compileJava
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:637: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:637: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         Optional<Boolean> isPinned;
                           ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:638: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:638: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         Optional<Map<String, String>> announcementMetadata;
                                       ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             this(version, Optional.empty(), Optional.empty());
                                         ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             this(version, Optional.empty(), Optional.empty());
                                         ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             this(version, Optional.empty(), Optional.empty());
                                   ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             this(version, Optional.empty(), Optional.empty());
                                                           ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             this(version, Optional.empty(), Optional.empty());
                                                           ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:641: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             this(version, Optional.empty(), Optional.empty());
                                                     ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:644: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:644: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         public VersionInfo(long version, Optional<Map<String, String>> announcementMetadata, Optional<Boolean> isPinned) {
                                                                        ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:644: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:644: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         public VersionInfo(long version, Optional<Map<String, String>> announcementMetadata, Optional<Boolean> isPinned) {
                                                                                                                ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:646: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:646: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             this.announcementMetadata = announcementMetadata;
                 ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:646: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:646: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             this.announcementMetadata = announcementMetadata;
                                         ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:647: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:647: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             this.isPinned = isPinned;
                 ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:647: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:647: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             this.isPinned = isPinned;
                             ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:655: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:655: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         public Optional<Map<String, String>> getAnnouncementMetadata() {
                                              ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:655: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:655: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         public Optional<Map<String, String>> getAnnouncementMetadata() {
                                              ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:656: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:656: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             return announcementMetadata;
                    ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:659: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:659: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         public Optional<Boolean> isPinned() {
                                  ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:659: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:659: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         public Optional<Boolean> isPinned() {
                                  ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:660: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:660: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             return isPinned;
                    ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             return new VersionInfo(getLatestVersion(), Optional.empty(), Optional.empty());
                                                                      ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             return new VersionInfo(getLatestVersion(), Optional.empty(), Optional.empty());
                                                                      ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             return new VersionInfo(getLatestVersion(), Optional.empty(), Optional.empty());
                                                                ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             return new VersionInfo(getLatestVersion(), Optional.empty(), Optional.empty());
                                                                                        ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             return new VersionInfo(getLatestVersion(), Optional.empty(), Optional.empty());
                                                                                        ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/HollowConsumer.java:695: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             return new VersionInfo(getLatestVersion(), Optional.empty(), Optional.empty());
                                                                                  ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/client/HollowClientUpdater.java:267: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/client/HollowClientUpdater.java:267: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
              || !incomingVersionInfo.getAnnouncementMetadata().isPresent()) {
                                                                         ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/client/HollowClientUpdater.java:267: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/client/HollowClientUpdater.java:267: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
              || !incomingVersionInfo.getAnnouncementMetadata().isPresent()) {
                                                               ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/client/HollowClientUpdater.java:275: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/client/HollowClientUpdater.java:275: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
             Map<String, String> metadata = incomingVersionInfo.getAnnouncementMetadata().get();
                                                                                             ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/client/HollowClientUpdater.java:275: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/client/HollowClientUpdater.java:275: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
             Map<String, String> metadata = incomingVersionInfo.getAnnouncementMetadata().get();
                                                                                         ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:26: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
     private Optional<Boolean> isCycleSuccess;               // true if cycle was successful, false if cycle failed, N/A if cycle was skipped
                               ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
     public Optional<Boolean> getIsCycleSuccess() {
                              ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:35: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
     public Optional<Boolean> getIsCycleSuccess() {
                              ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:36: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         return isCycleSuccess;
                ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         this.isCycleSuccess = builder.isCycleSuccess;
             ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:45: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         this.isCycleSuccess = builder.isCycleSuccess;
                                      ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:52: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
         private Optional<Boolean> isCycleSuccess;
                                   ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             isCycleSuccess = Optional.empty();
             ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             isCycleSuccess = Optional.empty();
                                            ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             isCycleSuccess = Optional.empty();
                                            ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:56: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>empty() [METHOD]
             isCycleSuccess = Optional.empty();
                                      ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             this.isCycleSuccess = Optional.of(isCycleSuccess);
                 ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional [CLASS]
             this.isCycleSuccess = Optional.of(isCycleSuccess);
                                              ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
             this.isCycleSuccess = Optional.of(isCycleSuccess);
                                              ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/producer/metrics/CycleMetrics.java:70: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.<T>of(T) [METHOD]
             this.isCycleSuccess = Optional.of(isCycleSuccess);
                                           ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
         if (!(requestedVersionInfo.isPinned().isPresent() && requestedVersionInfo.getAnnouncementMetadata().isPresent())) {
                                                        ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
         if (!(requestedVersionInfo.isPinned().isPresent() && requestedVersionInfo.getAnnouncementMetadata().isPresent())) {
                                              ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
         if (!(requestedVersionInfo.isPinned().isPresent() && requestedVersionInfo.getAnnouncementMetadata().isPresent())) {
                                                                                                                      ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:85: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.isPresent() [METHOD]
         if (!(requestedVersionInfo.isPinned().isPresent() && requestedVersionInfo.getAnnouncementMetadata().isPresent())) {
                                                                                                            ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
         boolean isPinned = requestedVersionInfo.isPinned().get();
                                                               ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:89: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
         boolean isPinned = requestedVersionInfo.isPinned().get();
                                                           ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
                     requestedVersionInfo.getAnnouncementMetadata().get(), HEADER_TAG_METRIC_ANNOUNCEMENT, announcementTimestamps);
                                                                       ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/metrics/AbstractRefreshMetricsListener.java:95: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.get() [METHOD]
                     requestedVersionInfo.getAnnouncementMetadata().get(), HEADER_TAG_METRIC_ANNOUNCEMENT, announcementTimestamps);
                                                                   ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/index/UniqueKeyIndex.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/index/UniqueKeyIndex.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
                             matchFields.stream().filter(e -> e.fieldPath.equals(path)).findFirst().orElse(null);
                                                                                                          ^
-/Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/index/UniqueKeyIndex.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
+/tmp/experiments/optional-paper-counts-repos/hollow/hollow/src/main/java/com/netflix/hollow/api/consumer/index/UniqueKeyIndex.java:102: warning: [usage] Usage of java.util.Optional [CLASS] by java.util.Optional.orElse(T) [METHOD]
                             matchFields.stream().filter(e -> e.fieldPath.equals(path)).findFirst().orElse(null);
                                                                                                   ^
 Note: Some input files use or override a deprecated API.
@@ -199,13 +199,13 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :hollow-test:createCheckerFrameworkManifest
 
 > Task :hollow-test:compileJava
-Note: /Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow-test/src/main/java/com/netflix/hollow/test/consumer/TestHollowConsumer.java uses or overrides a deprecated API.
+Note: /tmp/experiments/optional-paper-counts-repos/hollow/hollow-test/src/main/java/com/netflix/hollow/test/consumer/TestHollowConsumer.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :hollow-ui-tools:createCheckerFrameworkManifest
 
 > Task :hollow-ui-tools:compileJava
-Note: /Users/yoo/tmp/experiments/optional-paper-counts-repos/hollow/hollow-ui-tools/src/main/java/com/netflix/hollow/ui/HttpHandlerWithServletSupport.java uses or overrides a deprecated API.
+Note: /tmp/experiments/optional-paper-counts-repos/hollow/hollow-ui-tools/src/main/java/com/netflix/hollow/ui/HttpHandlerWithServletSupport.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :hollow-diff-ui:compileJava
