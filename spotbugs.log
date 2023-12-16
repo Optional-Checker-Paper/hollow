@@ -19,10 +19,10 @@ SpotBugs ended with exit code 1
 
 :hollow:spotbugsMain
 :hollow-test:compileJava
-Note: /Users/yoo/experiments/hollow/hollow-test/src/main/java/com/netflix/hollow/test/consumer/TestHollowConsumer.java uses or overrides a deprecated API.
+Note: /experiments/hollow/hollow-test/src/main/java/com/netflix/hollow/test/consumer/TestHollowConsumer.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :hollow-ui-tools:compileJava
-Note: /Users/yoo/experiments/hollow/hollow-ui-tools/src/main/java/com/netflix/hollow/ui/HttpHandlerWithServletSupport.java uses or overrides a deprecated API.
+Note: /experiments/hollow/hollow-ui-tools/src/main/java/com/netflix/hollow/ui/HttpHandlerWithServletSupport.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :hollow-diff-ui:compileJava
 :hollow-diff-ui:processResources
@@ -39,39 +39,39 @@ Note: Recompile with -Xlint:deprecation for details.
 :hollow-jsonadapter:classes
 :hollow-jsonadapter:spotbugsMain
 :hollow-perf:compileJava
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:24: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:24: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
 import sun.misc.Unsafe;
                ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:21: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:21: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
 import sun.misc.Unsafe;
                ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:42: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:42: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
     private static final Unsafe unsafe = HollowUnsafeHandle.getUnsafe();
                          ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:76: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:76: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
         unsafe.putLong(segments[segmentIndex], (long) Unsafe.ARRAY_LONG_BASE_OFFSET + (8 * longInSegment), value);
 M V EI: com.netflix.hollow.core.util.DefaultHashCodeFinder.getTypesWithDefinedHashCodes() may expose internal representation by returning DefaultHashCodeFinder.typesWithDefinedHashCodes  At DefaultHashCodeFinder.java:[line 65]
                                                       ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:81: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:81: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
                     (long) Unsafe.ARRAY_LONG_BASE_OFFSET + (8 * (1 << log2OfSegmentSize)), value);
                            ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:98: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/SegmentedLongArrayPlainPut.java:98: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
             long offset = Unsafe.ARRAY_LONG_BASE_OFFSET;
                           ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:44: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:44: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
     private static final Unsafe unsafe = HollowUnsafeHandle.getUnsafe();
                          ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:94: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:94: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
         long elementByteOffset = (long) Unsafe.ARRAY_LONG_BASE_OFFSET + (whichByte & byteBitmask);
                                         ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:170: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:170: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
         long elementByteOffset = (long) Unsafe.ARRAY_LONG_BASE_OFFSET + (whichByte & byteBitmask);
                                         ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:177: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:177: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
             unsafe.putLong(segments[whichSegment + 1], (long) Unsafe.ARRAY_LONG_BASE_OFFSET,
 M V MS: Public static com.netflix.hollow.core.memory.HollowUnsafeHandle.getUnsafe() may expose internal representation by returning HollowUnsafeHandle.unsafe  At HollowUnsafeHandle.java:[line 43]
                                                               ^
-/Users/yoo/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:181: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
+/experiments/hollow/hollow-perf/src/main/java/hollow/FixedLengthElementArrayPlainPut.java:181: warning: sun.misc.Unsafe is internal proprietary API and may be removed in a future release
             unsafe.putLong(segments[whichSegment - 1], (long) Unsafe.ARRAY_LONG_BASE_OFFSET + (8 * (bitmask + 1)),
                                                               ^
 11 warnings
